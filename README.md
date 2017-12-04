@@ -26,20 +26,22 @@ https://gist.github.com/superyetix/f6161e178db68cc2a2691bccd3147cc7
 
 **Find distinct count**
 
+----------------------
+
 _Part 1_
 
 In this assignment, you're asked to code a function in Scala that takes as input an
 `Array[Long]` (the user id collection, where any id may occurs multiple time) and outputs a
 Long (the number of unique user contained in the input array).
 
-----------------------
-----------------------
 
 `countDistinct` can be implemented using basic scala functions such as `distinct` and `toSet`. Both are fast for 
 small to medium sized arrays with a time complexity of O(n) but a spatial of O(m). 
 They are usable as long as we have enough memory.
 
 An implementation `customCountDistinct` using a hashet and returning the value of distinct element has been implemented
+
+----------------------
 
 _Part 2_
 
